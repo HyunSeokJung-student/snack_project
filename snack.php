@@ -85,6 +85,9 @@
         <div class = text>
         <font style="cursor: hand" onClick="location.href='snackF/write.php'">제품등록하기</font>
         </div>
+        <div class= text>
+        <font style="cursor: hand" onClick="location.href='author.php'">만든사람</font>
+        </div>
  
 </body>
 </html>
