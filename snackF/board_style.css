@@ -1,0 +1,74 @@
+h2{
+    text-align: center;
+}
+table{
+    border-top: 1px solid #444444;
+    border-collapse: collapse;
+    margin : 0 auto;
+}
+thead{
+    text-align : center;
+}
+tr{
+    border-bottom: 1px solid #444444;
+    padding: 10px;
+}
+td{
+    border-bottom: 1px solid #efefef;
+    padding: 10px;
+    text-align: center;
+}
+.description{
+    width:100px;
+    border-bottom: 1px solid #efefef;
+    border-right:1px solid #444444;
+    padding: 10px;
+    text-align: center;
+}
+.content{
+    width:300px;
+    border-bottom: 1px solid #efefef;
+    padding: 10px;
+    text-align: center;
+}
+table .even{
+    background: #efefef;
+}
+.text{
+    text-align:center;
+    padding-top:20px;
+    color:#000000
+}
+.text:hover{
+    text-decoration: underline;
+}
+a:link {color : #57A0EE; text-decoration:none;}
+a:hover { text-decoration : underline;}
+
+.back{
+    background-color:rgb(182, 177, 177);  
+}
+
+.write, .update {
+    text-align:center;
+}
+.write input, .update input{
+    width:300px;
+}
+.write input[name="register"], .update input[name="register"]{
+    width:50px;
+}
+.write label[for="write_ingredient"], .update label[for="update_ingredient"]{
+    vertical-align: top;
+}
+.write textarea[name="write_ingredient"], .update textarea[name="update_ingredient"]{
+    height:400px;
+    width:300px;
+}
+
+#functionbtn{
+    text-align:center;
+}
+#functionbtn form{
+    display:inline-block;
+}
